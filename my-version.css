@@ -1,0 +1,95 @@
+.delete{
+    display: none;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+body{
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.heading-1{
+    display: flex;
+    justify-self: center;
+    height: 10px;
+    padding-top: 100px;
+    justify-content: center;
+}
+
+.heading-2{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+
+.heading-3{
+    display: flex;
+    justify-content: center;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+}
+
+.input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: antiquewhite;
+    border: white;
+    border-width: 2px;
+    border-radius: 12px;
+    border-color: aliceblue;
+    height: 50px;
+    width:500px;
+    border-style: double;
+}
+
+.enter-button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    height: 55px;
+    border-width: 2px;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+    border-color: antiquewhite;
+
+
+
+}
+
+.delete-button{
+    border-radius: 12px ;
+    margin-left: 10px;
+    cursor: pointer;
+    background-color: black;
+    color: antiquewhite;
+    border-color: antiquewhite;
+}
+
+
+.list-element{
+    /* display: flex;
+    justify-content: center;
+     */
+    text-transform: capitalize;
+    list-style: none;
+    transition: all 0.75s ease; 
+    margin-bottom: 30px;
+    margin-top: 30px;
+    /*
+    text-align: center;
+    background-color: rgba(16, 0, 0, 0.404);
+    border-color: antiquewhite;
+    border-style: double;
+    padding: 20px; */
+    
+} 
+
