@@ -53,7 +53,7 @@ body{
 
 .enter-button{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 12px;
+    border-radius: 10px;
     height: 55px;
     border-width: 2px;
     margin-left: 10px;
@@ -67,8 +67,9 @@ body{
 }
 
 .delete-button{
-    border-radius: 12px ;
-    margin-left: 10px;
+    border-radius: 5px ;
+    border-width: 1.5px;
+    margin-left: 20px;
     cursor: pointer;
     background-color: black;
     color: antiquewhite;
@@ -80,7 +81,7 @@ body{
     /* display: flex;
     justify-content: center;
      */
-    text-transform: capitalize;
+    text-transform: lowercase;
     list-style: none;
     transition: all 0.75s ease; 
     margin-bottom: 30px;
