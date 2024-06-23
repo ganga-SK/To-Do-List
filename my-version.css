@@ -16,7 +16,7 @@ body{
 .heading-1{
     display: flex;
     justify-self: center;
-    height: 10px;
+    height: 20px;
     padding-top: 100px;
     justify-content: center;
 }
@@ -30,6 +30,7 @@ body{
 .heading-3{
     display: flex;
     justify-content: center;
+    font-size: small;
 }
 
 .input-div{
